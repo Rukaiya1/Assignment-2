@@ -3,7 +3,6 @@
 * {
   margin: 0 auto;
   padding: 0;
-  background-color: #000;
   font-family: "Inter", sans-serif;
 }
 
@@ -13,14 +12,26 @@
   display: flex;
 }
 
+.btn-primary{
+    background-color: #E6533C;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+}
+
 /* shared styles ends here */
 
 /* navbar styles starts here */
-
+header{
+    background-color: #000;
+}
 #navbar {
   justify-content: space-between;
   align-items: center;
   height: 17vh;
+  padding-top: 20px;
 }
 .logo {
   color: #e6533c;
@@ -31,7 +42,7 @@
 .menu {
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 40px;
-  padding: 15px 0px;
+  padding: 12px 0px;
   padding-left: 5px;
   padding-right: 25px;
 }
@@ -55,3 +66,76 @@
 }
 
 /* navbar styles ends here */
+
+/* banner styles starts here */
+.banner-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.banner-info{
+    max-width: 50%;
+    margin-left: 210px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+.banner-description{
+    color:  rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 30px 0px;
+}
+.btn-secondary{
+    background-color: transparent;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 15px 40px;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    margin-left: 12px;
+}
+.banner-img{
+    max-width: 50%;
+    margin-right: 220px;
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+}
+
+.video-info{
+    background-color: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    color: #FFF;
+    padding: 20px;
+    width: max-content;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.position1{
+    position: absolute;
+    top: 22%;
+    right: -5%;
+}
+.position2{
+    position: absolute;
+    top: 75%;
+    right: 70%;
+}
+.video-title{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+.video-description{
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+
+/* banner styles ends here */

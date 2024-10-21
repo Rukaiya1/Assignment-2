@@ -1,8 +1,56 @@
-@media screen and (max-width:576px) {
-    .menu{
-        display: none;
-    }
-    #hamburger-menu{
-        display: block;
-    }
+@media screen and (max-width: 576px) {
+  /* navber style */
+  .menu {
+    display: none;
+  }
+
+  #navbar{
+    padding-bottom: 20px;
+  }
+  #hamburger-menu {
+    display: block;
+    margin: 0 20px;
+  }
+  .logo{
+    margin: 0 20px;
+  }
+  /* banner style */
+  .banner-section {
+    flex-direction: column;
+  }
+  .banner-info {
+    max-width: 100%;
+    margin-left: 20px;
+  }
+  .banner-title{
+    font-size: 3rem;
+}
+.banner-description{
+    width: 280px;
+}
+.btn-container{
+    display: flex;
+}
+.btn-primary{
+    font-size: 1rem;
+    padding: 10px 30px;
+}
+.btn-secondary{
+    font-size: 1rem;
+    padding: 10px 30px;
+}
+.banner-img{
+    max-width: 100%;
+    margin: 50px 30px;
+}
+.position1{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+}
+.position2{
+    position: absolute;
+    top: 48%;
+    right: 50%;
+}
 }
