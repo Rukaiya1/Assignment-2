@@ -57,4 +57,22 @@
 .box-container{
   flex-direction: column;
 }
+/* Run an Extra Mile section */
+.run-container{
+  flex-direction: column;
+  width: 85%;
+  padding: 10px;
+}
+.run-info{
+  padding-top: 20px;
+}
+.run-info, .run-image{
+  width: 80%;
+  padding-bottom: 20px;
+}
+.run-info button{
+  width: 100%;
+}
+
+
 }
