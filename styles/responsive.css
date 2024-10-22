@@ -111,4 +111,13 @@
 .team-member{
   width: 100%;
 }
+/* Feature section */
+.feature-info{
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.feature-image{
+  grid-template-columns: repeat(1, 1fr);
+  margin: 20px 0px;
+}
 }
