@@ -73,4 +73,42 @@
 .run-info button{
   width: 100%;
 }
+/* BMI Section */
+.BMI-Calculator-info{
+  margin-left: 20px;
+}
+.BMI-container-info{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.table-container{
+  width: 100%;
+}
+.table{
+  margin: 20px;
+}
+.title-position{
+  margin-left: 20px;
+}
+.form-container{
+  width: 95%;
+  margin-left: 20px;
+}
+.form{
+  width: 100%;
+}
+.input-field{
+  width: 90%;
+}
+/* Meet our team section */
+.team-container{
+  width: 85%;
+  margin: 0 20px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.team-member{
+  width: 100%;
+}
 }

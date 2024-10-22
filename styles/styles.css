@@ -228,7 +228,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding-top: 50px;
 }
 .BMI-container{
   width: 100%;
@@ -244,7 +244,6 @@ header {
 .table-container{
   width: 40%;
   flex-direction: column;
-  margin: 0px;
 
 }
 .table-title{
@@ -252,6 +251,9 @@ header {
   font-size: 1.6rem;
   font-weight: 800;
   margin-bottom: 15px;
+}
+.title-position{
+  margin-left: 40px;
 }
 .table{
   margin: 40px;
@@ -286,3 +288,63 @@ header {
 }
 
 /* BMI Calculator styles ends here */
+/* Meet our team styles starts here */
+.team-section{
+  background-color: #000;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 0;
+}
+.team-container{
+ background-color: rgba(255, 255, 255, 0.10);
+ width: 1020px;
+ padding: 30px;
+ margin-top: 40px;
+ border-radius: 10px;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 20px;
+}
+#member-image1{
+ background-image: url(../images/trainer1.png);
+}
+#member-image2{
+ background-image: url(../images/trainer2.png);
+}
+#member-image3{
+ background-image: url(../images/trainer3.png);
+}
+#member-image4{
+ background-image: url(../images/trainer4.png);
+}
+#member-image5{
+ background-image: url(../images/trainer5.png);
+}
+#member-image6{
+ background-image: url(../images/trainer6.png);
+}
+.team-member{
+ background-size: cover;
+ width: 330px;
+ height: 270px;
+ border-radius: 10px;
+ position: relative;
+}
+.team-info{
+ position: absolute;
+ top: 80%;
+ left: 7%;
+}
+.member-title{
+ color: #FFF;
+ font-size: 1.2rem;
+ font-weight: 700;
+}
+.member-description{
+ color: rgba(255, 255, 255, 0.50);
+ font-size: .8rem;
+ font-weight: 400;
+ text-align: start;
+}
+
+/* Meet our team styles ends here */
