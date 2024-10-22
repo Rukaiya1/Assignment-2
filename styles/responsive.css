@@ -53,4 +53,8 @@
     top: 48%;
     right: 50%;
 }
+/* change habit section */
+.box-container{
+  flex-direction: column;
+}
 }
