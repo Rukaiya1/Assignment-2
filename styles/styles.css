@@ -222,3 +222,67 @@ header {
   border-radius: 10px;
 }
 /* Run an Extra Mile ends starts here */
+/* BMI Calculator styles starts here */
+.BMI-Calculator-section{
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.BMI-container{
+  width: 100%;
+  background-color: #222;
+  padding: 50px 0px;
+  margin-top: 60px;
+}
+.BMI-container-info{
+  width: 1020px;
+  gap: 40px;
+  margin-top: 10px;
+}
+.table-container{
+  width: 40%;
+  flex-direction: column;
+  margin: 0px;
+
+}
+.table-title{
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.table{
+  margin: 40px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  /* height: 600px; */
+}
+.table-heading{
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.form-container{
+  width: 60%;
+}
+.form{
+  width: 700px;
+  margin-bottom: 20px;
+}
+.form-info{
+  margin-bottom: 15px;
+}
+.input-field{
+  background-color: rgba(255, 255, 255, 0.10);
+  color: rgba(255, 255, 255, 0.60)  ;
+  border: none;
+  border-radius: 10px;
+  width: 240px;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+/* BMI Calculator styles ends here */
