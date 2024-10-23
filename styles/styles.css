@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 * {
   margin: 0 auto;
   padding: 0;
@@ -244,7 +246,6 @@ header {
 .table-container{
   width: 40%;
   flex-direction: column;
-
 }
 .table-title{
   color: #FFF;
@@ -255,11 +256,12 @@ header {
 .title-position{
   margin-left: 40px;
 }
-.table{
-  margin: 40px;
-  padding: 10px;
+table{
+  margin: 0px;
+}
+table, th, td {
   border: 1px solid rgba(255, 255, 255, 0.10);
-  /* height: 600px; */
+  border-collapse: collapse;
 }
 .table-heading{
   color: #FFF;
@@ -351,7 +353,8 @@ header {
 /* Feature section styles starts here */
 .feature-section{
   background-color: #000;
-  padding: 100px 0;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .feature-info {
@@ -382,3 +385,47 @@ header {
   margin-top: 20px;
 }
 /* Feature section styles ends here */
+/* Footer section styles starts here */
+.footer-section{
+  background-color: #222;
+  padding-top: 60px;
+}
+.footer-info{
+  width: 1020px;
+  display: grid;
+  grid-template-columns: 400px repeat(2, 1fr);
+  gap: 60px;
+}
+
+.footer-logo {
+  color: #e6533c;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.footer-list-title {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.footer-description p{
+  margin-top: 15px;
+}
+#horizontal-line{
+  width: 1030px;
+  opacity:0.2;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.footer-last-part{
+  text-align: center;
+  padding-bottom: 30px;
+}
+/* Footer section styles ends here */
