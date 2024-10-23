@@ -240,11 +240,11 @@ header {
 }
 .BMI-container-info{
   width: 1020px;
-  gap: 40px;
+  gap: 100px;
   margin-top: 10px;
 }
 .table-container{
-  width: 40%;
+  width: 38%;
   flex-direction: column;
 }
 .table-title{
@@ -254,14 +254,15 @@ header {
   margin-bottom: 15px;
 }
 .title-position{
-  margin-left: 40px;
+  margin-left: 0px;
+  margin-bottom: 40px;
 }
-table{
-  margin: 0px;
-}
+
 table, th, td {
+  margin: 0px;
   border: 1px solid rgba(255, 255, 255, 0.10);
   border-collapse: collapse;
+  padding: 10px;
 }
 .table-heading{
   color: #FFF;
@@ -269,24 +270,33 @@ table, th, td {
   font-weight: 500;
 }
 .form-container{
-  width: 60%;
+  width: 58%;
 }
-.form{
-  width: 700px;
-  margin-bottom: 20px;
-}
+
 .form-info{
   margin-bottom: 15px;
+}
+.form{
+  width: 100%;
+  margin-bottom: 20px;
 }
 .input-field{
   background-color: rgba(255, 255, 255, 0.10);
   color: rgba(255, 255, 255, 0.60)  ;
   border: none;
   border-radius: 10px;
-  width: 240px;
+  width: 43%;
   padding: 15px;
   margin-bottom: 10px;
-  margin-right: 10px;
+}
+.gender-field{
+  width: 48%;
+}
+.activity-field{
+  width: 98%;
+}
+.field-gap{
+  margin-right: 8px;
 }
 
 /* BMI Calculator styles ends here */
